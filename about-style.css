@@ -1,0 +1,224 @@
+
+* Navigation Bar */
+#navbar h2{
+    font-weight: bolder;
+    transform: scale(.98);
+    transition: ease 1s;
+    padding-top: .2em;
+    color:whitesmoke;
+}
+
+#navbar h2:hover{
+    transform: scale(1.1);
+   
+}
+
+#navbar a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+#navbar nav a{
+    font-size: 1.35rem;
+    padding: .6em .5em;
+}
+
+#navbar nav a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Projects */
+section.projects div.container div.row div.col-lg-6 img {
+    height: 250px;
+    width: 440px;
+    margin: 30px 0px;
+    box-shadow: 5px 6px 6px 2px rgb(102, 102, 102);
+  }
+  
+  section.projects div.container div.row div.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section.projects div.container div.row div.col-lg-6 h4 {
+    font-weight: 600;
+    
+  }
+  
+  section.projects div.container div.row div.col-lg-6 p {
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+  }
+
+footer,header
+{padding-top: 0.5em;
+    padding-bottom: 0.5em;
+background-color:black;
+}
+footer
+{
+    background-color: black; 
+}
+footer h1,h2,h3{color:white;}
+.col-lg-3{padding:20px 30px 20px 30px}
+.container-fluid 
+{  
+    background: url(images/background-2426328_1280.jpg) repeat; 
+    background-blend-mode: lighten; 
+    background-color ;black;
+    padding:30px 250px 30px 250px;
+    
+    border-color: black;
+    transform: scale(.99);
+   height:850px;
+    transition: ease-in-out 1s;
+}
+.container-fluid h1,h2,.h3{color:cornsilk;}
+.display-2
+{font-weight:1100px;
+color:cornsilk;}
+.container-fluid1 
+{ 
+   
+    height:650px;
+padding:120px 80px 70px 80px;}
+
+.container-fluid3 
+{ 
+   
+
+    
+padding:80px 130px 80px 130px;}
+i{color:black;}
+.container-fluid2
+{ 
+    
+padding:80px 250px 50px 250px;}
+
+.container-fluid:hover{
+    transform: scale(1.01);
+}
+.carousel-inner img {
+    width: 60%;
+    height: 60%;
+  }
+
+h1,h2{font-size:22px}
+
+h1{
+    letter-spacing:1.5px;
+    color:rgb(7, 7, 7);}
+
+h2{color:rgba(12, 14, 14, 0.678);
+
+font-family:cursive}
+
+
+.img{
+   padding:0 200px 0 200px;
+}
+
+
+body{
+    background: url(images/marble-2398946.jpg) no-repeat fixed; 
+      
+}
+
+hr{
+    background: white;	
+}
+.card-body{background: url(images/76YS.gif);}
+
+/* Skills */
+#skills img{
+    width: 70px;
+    height: 70px;
+}
+#skills img:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+    transform: scale(1);
+    cursor: pointer;
+    box-shadow: 5px 6px 6px 2px rgb(102, 102, 102);
+}
+#skills .col{
+    padding: .8em;
+    transform: scale(.98);
+    transition: ease-in-out 0.3s;
+}
+
+#skills .col:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+    transform: scale(1);
+    cursor: pointer;
+}
+i{color:white;}
+#skills h3{
+    color: lavenderblush;
+    padding-left: 6px;
+}
+
+
+@media(max-width:768px)
+{
+    .idx
+    {padding:  30px 50px 30px 50px;
+    }  
+.i
+{min-height: 10%;}
+
+.navbar
+{height:fit-content;}  
+   
+img
+{max-width: 100%;
+height: auto; }
+ .img{padding:20px 10px 20px 10px;}
+.container-fluid1,.container-fluid2,.container-fluid3
+{padding: 20px 40px 20px 40px;}
+
+.btn
+    
+.col-lg-3
+{padding: 40px 0 40px 0;}
+ 
+
+.container-fluid
+{
+    padding: 18px 20px 1px 20px;}
+
+
+
+h1,.h1{font-size:1.6rem;}
+
+.display-2{font-size:2rem;
+;}
+
+
+h2,h4,h3,.h2,.h3
+{font-size:1.0rem;}
+
+#navbar nav a{
+    font-size: 1rem;
+    
+}
+
+
+
+h5,.id,p
+{font-size:1rem;}
+
+
+
+.container-fluid
+ {
+height: auto;}
+ 
+.hr
+{width:100px;}
+
+
+
+
+ }
