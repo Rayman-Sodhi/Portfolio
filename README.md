@@ -1,5 +1,5 @@
 # My Personal Portfolio Website
-https://rayman-sodhi.github.io/my-portfolio/
+https://rayman-sodhi.github.io/Portfolio/
 #
 *  Created using Html,css,bootstrap and Javascript
 #
